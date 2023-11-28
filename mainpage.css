@@ -1,27 +1,70 @@
-h1{
+h1 {
     text-align: center;
-    style ="font-style: oblique;"
-   }
-  body{
-      margin: 0px;
-      padding: 0px;
-    }
-    .background{
-      background-image: url(background.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      top: 10%;
-      height:100vh;
-      width: 100%;
-      background-position: center;
-    }
-    .overlay-text {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        font-style: oblique;
-        font-size: 2.0em;
-        color: #f5f4f4; /* Text color */
-    }
+    font-style: oblique;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 10%;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style: oblique;
+    font-size: 2.0em;
+    color: #f5f4f4;
+    padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: aliceblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center; /* Center the list horizontally */
+}
+
+li {
+    color: rgb(0, 0, 0);
+    border: none;
+    margin: 0 25px; /* Adjust the margin to create space between links */
+    font-weight: bold;
+}
+
+.nav-links {
+    background-image: linear-gradient(rgb(255, 132, 0), white);
+    background-repeat: repeat;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 15, 15);
+    border-radius: 5px;
+    top:75px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #080505;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
