@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    style ="font-style: oblique;"
+   }
+  body{
+      margin: 0px;
+      padding: 0px;
+    }
+    .background{
+      background-image: url(background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: 10%;
+      height:100vh;
+      width: 100%;
+      background-position: center;
+    }
+    .overlay-text {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-style: oblique;
+        font-size: 2.0em;
+        color: #f5f4f4; /* Text color */
+    }
