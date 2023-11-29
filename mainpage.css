@@ -35,7 +35,6 @@ ul {
     margin: 0;
     padding: 5px;
     overflow: hidden;
-    background-color: aliceblue;
     padding-left: 25px;
     padding-right: 25px;
     display: flex;
@@ -50,19 +49,24 @@ li {
 }
 
 .nav-links {
+    position:absolute;
     background-image: linear-gradient(rgb(255, 132, 0), white);
+    opacity: 100px;
     background-repeat: repeat;
     padding-left: 5px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
-    background-color: rgb(16, 15, 15);
+    background-color: rgb(240, 234, 234);
     border-radius: 5px;
-    top:75px;
+    top: 500px;
+    opacity:1.0;
+     font-size: 0.5em;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #080505;
+    color: #e14a17;
 }
 
 .nav-links a:hover {
