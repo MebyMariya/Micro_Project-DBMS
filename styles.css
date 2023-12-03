@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee3e3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(13, 178, 233);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    font-style:italic;
+    margin: 0 auto;
+    background: url('signupbg.jpg') no-repeat center center fixed;
+    box-shadow: 0 0 10px white);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 600px;
+    padding left: 100px;
+
+}
+.image{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.project-image {
+    max-width: 20%;
+    height: auto;
+}
+
+footer {
+    background-color: #f7f3f3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

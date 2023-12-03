@@ -1,5 +1,5 @@
 h1 {
-    text-align: center;
+    text-align: left;
     font-style: bold;
 }
 
@@ -49,10 +49,9 @@ ul {
     margin: 0;
     padding: 5px;
     overflow: hidden;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 5px;
     display: flex;
-    justify-content: center; /* Center the list horizontally */
+    justify-content: left; /* Center the list horizontally */
 }
 
 li {
@@ -66,9 +65,9 @@ li {
     opacity: 100px;
     background-repeat: repeat;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     border-radius: 5px;
     top: 500px;
     opacity:1.0;
@@ -85,25 +84,26 @@ li {
 }
 .button {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    padding-left: 50px;
+    border: black;
+    border-radius: 100px;
+    padding-left: 20px;
+    margin-top: 10px ;
 }
 
 .button1 {
-    background-color: rgb(247, 241, 237);
+    background-color: rgb(236, 231, 229);
     color: white;
-    margin-left: 10px;
+    margin-left: 200px; /* Add margin for spacing between buttons */
     margin-top: 10px;
-    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .button2 {
     background-color: rgb(236, 231, 229);
     color: white;
-    margin-left: 200px; /* Add margin for spacing between buttons */
+    margin-left: 300px; /* Add margin for spacing between buttons */
     margin-top: 10px;
     padding-right: 50px;
 
@@ -111,8 +111,7 @@ li {
 .button3 {
     background-color: rgb(246, 246, 246);
     color: white;
-    margin-left: 100px; /* Add margin for spacing between buttons */
+    margin-left: 300px; /* Add margin for spacing between buttons */
     margin-top: 10px;
     padding-right: 50px;
-    
 }
