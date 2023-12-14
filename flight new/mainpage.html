@@ -1,0 +1,133 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #0078d4;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .header ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header li {
+      margin: 0 10px;
+    }
+
+    .header a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+    }
+
+    .main button {
+      width: 200px;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .main .book-now {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .main .sign-up {
+      background-color: #17a2b8;
+      color: white;
+    }
+
+    .main .login {
+      background-color: #6c757d;
+      color: white;
+    }
+
+    .form {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form h2 {
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .form label {
+      display: block;
+      margin: 10px 0;
+    }
+
+    .form input {
+      display: block;
+      width: 100%;
+      height: 30px;
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    .form button {
+      display: block;
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      background-color: #0078d4;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Bon Voyage</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <button class="book-now">Book Now</button>
+      <button class="sign-up" onclick="window.location.href='signup.html'">Sign Up</button>
+      <button class="login" onclick="window.location.href='login.html'">Login</button>
+    </div>
+  </div>
+</body>
+</html>

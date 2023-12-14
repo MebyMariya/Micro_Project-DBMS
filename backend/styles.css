@@ -3,6 +3,7 @@ body {
     background-color: #eee3e3;
     margin: 0;
     padding: 0;
+    overflow:hidden;
 }
 
 header {
@@ -29,6 +30,7 @@ h2 {
     font-style:italic;
     margin: 0 auto;
     background: url('signupbg.jpg') no-repeat center center fixed;
+    background-size: 60%;
     box-shadow: 0 0 10px white);
     border-radius: 5px;
     margin-top: 20px;
@@ -54,7 +56,7 @@ p {
     height: auto;
 }
 
-footer {
+/*footer {
     background-color: #f7f3f3;
     color: #fff;
     text-align: center;

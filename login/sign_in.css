@@ -1,0 +1,39 @@
+.signup{
+    padding-left: 700px;
+    font-size: x-large;
+    background-color: rgb(8, 132, 173);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-group {
+     margin-bottom: 5px;
+     padding-left: 650px;
+     padding-top: 15px;
+     font-size: 35px;
+     font-style: italic;
+     padding-bottom: 50px;
+}
+.grp{
+    padding-top: 75px;
+    background-image:url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+button{
+        background-color: rgb(81, 178, 247);
+        color: rgb(243, 246, 249);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
+    input[type="submit"]:hover,
+
+    button:hover{
+        background-color: rgb(0, 137, 137);
+        border-radius: 15px;
+    }

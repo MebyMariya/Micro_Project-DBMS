@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="icon type"image/jpeg href="/main page icon.jpg"> 
+        <title>SIGN-UP</title>
+    </head>
+    <link rel="stylesheet" href="su1.css">
+    <script>
+        function showAlert(){
+            alert("Submit Button clicked");
+        }
+        </script>
+    <body>
+        <div class="signup">
+            <h1>Sign Up</h1>
+        </div>
+
+
+
+        <div class="grp">
+              
+            <div class="form-group">
+                <label for="USER NAME">Username:</label>
+                <input type="text" id="USER NAME" placeholder="Meby Mariya" minlength="0" maxlength="10" required width="300px" height="30px">
+            </div>
+
+            <div class="form-group">
+                <label for="EMAIL">email:</label>
+                <input type="email" id="EMAIL" placeholder="abc123@gmail.com" minlength="6" maxlength="25" required>
+            </div>
+
+            <div class="form-group">
+                <label for="B-DAY">b-day:</label>
+                <input type="date" id="B-DAY">
+            </div>
+             
+
+            <div class="form-group">
+                <label for="AGE">age:</label>
+                <input type="number" id="AGE" minlength="0" maxlength="100" value="1">
+            </div>
+
+
+            <div class="form-group">
+                <label for="title">title:</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Mr." class="radio-label">Mr.</label>
+    
+            <input type="radio" id="Mrs." value="Mrs." name="title">
+            <label for=" Mrs." class="radio-label">Mrs.</label>
+             </div>
+
+            <div class="form-group">
+                    <label for="PASSWORD">password:</label>
+                    <input type="password" id="PASSWORD" placeholder="mjmj@123" minlength="6" maxlength="10" required>
+                
+            </div> 
+            <button type="button" value="submit" onclick="showAlert()" name="Send Message">Submit</button>
+
+            
+        </div>
+        
+    </body>
+
+    
+  
+ </html>
